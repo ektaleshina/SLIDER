@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <link rel="stylesheet" href="style.css">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>SLIDER</title>
+</head>
+<body>
+   <main>
+       <section class="slider">
+           <container class="slider__textbox">
+               <div class="slider__textbox_headline">
+                   <h1 class="slider__textbox_headline-h1">Completed<br>projects</h1>
+                <div class="slider__textbox_headline-hr">
+                <hr align="right" width="150" size="3" color="#E3B873" />
+                 </div>
+             </div>
+               <div class="slider__textbox-inf">
+                   <p class="slider__textbox-inf-p">Only a small part of the work performed by our company is presented<br>on the site.
+                   For 14 years on in the construction<br>market we have made happy more than 1000 families</p>
+               </div>
+               <div class="slider__textbox-details">
+                 <div class="slider__textbox-detailsg1">
+                   <div class="slider__textbox-details-point">
+                       <h2 class="slider__textbox-details-point-h2">City:</h2>
+                       <p class="slider__textbox-details-point-p">Rostov-on-Don<br>Patriotic</p>
+                   </div>
+                   <div class="slider__textbox-details-pointG2">
+                       <h2 class="slider__textbox-details-point-h2">Apartment area:</h2>
+                       <p class="slider__textbox-details-point-p">93 m2</p>
+                   </div>
+                 </div>
+                 <div class="slider__textbox-detailsg1">
+                   <div class="slider__textbox-details-point">
+                       <h2 class="slider__textbox-details-point-h2">Repair time:</h2>
+                       <p class="slider__textbox-details-point-p">3 months</p>
+                   </div>
+                   <div class="slider__textbox-details-pointG3">
+                       <h2 class="slider__textbox-details-point-h2">Repair Cost:</h2>
+                       <p class="slider__textbox-details-point-p">Upon request</p>
+                   </div>
+                 </div>
+                 <div class="slider_arrow">
+                    
+                 </div> 
+           </div>
+           </container>
+           <div class="slider__main">
+            <ul class="slider__main-nav">
+                <li class="slider__main-nav-item" data-slide="0">Rostov-on-Don, Admiral</li>
+                <li class="slider__main-nav-item" data-slide="1">Sochi Thieves</li>
+                <li class="slider__main-nav-item" data-slide="2">Rostov-on-Don Patriotic</li>
+            </ul>
+            <div id="slider-con">
+                <div id="slider-con-box">
+                    <img class="s-image box" src="images/image_one.png" alt="foto1" width="680" height="482">
+                    <img class="s-image" src="images/image_two.png" alt="foto2" width="680" height="482">
+                    <img class="s-image" src="images/image_three.png" alt="foto3" width="680" height="482">
+                </div>
+            </div>
+               <div class="dots" id="dots"></div>
+               <button id="prev" onclick="changeSlide(-1)">&#10094;</button>
+               <button id="next" onclick="changeSlide(1)">&#10095;</button>
+           </div>
+       </section>
+   </main>
+   <script src="funcc.js"></script>
+</body>
+</html>
